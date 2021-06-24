@@ -1,4 +1,4 @@
-let APIURL = ''
+let APIURL
 
 switch (window.location.hostname) {
     case 'localhost':
@@ -9,4 +9,4 @@ switch (window.location.hostname) {
         APIURL = 'https://atlas-pilot-server.herokuapp.com'
 }
 
-export default APIURL
+export default APIURL;

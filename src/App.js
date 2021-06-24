@@ -4,8 +4,8 @@ import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
-import { HomePage } from "./components/HomePage.jsx";
-import { ChatRoom } from "./components/ChatRoom.jsx";
+import HomePage  from "./components/HomePage.jsx";
+import ChatRoom  from "./components/ChatRoom.jsx";
 
 function App() {
   return (

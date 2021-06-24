@@ -1,4 +1,4 @@
-import APIURL from "./helpers/environment.js";
+import APIURL from "../helpers/environment";
 
 import { useEffect, useRef, useState } from "react";
 import socketIOClient from 'socket.io-client';
