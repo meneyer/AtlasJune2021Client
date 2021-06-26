@@ -4,12 +4,9 @@ import Login from "./Login"
 
 const Auth = (props) => {
     return (
-        <div>
-            Hello from Auth
-            <Signup/>
-            <Login/>
-            {/* <Signup updateToken={props.updateToken}/> */}
-            {/* <Login updateToken={props.updateToken}/> */}
+        <div>            
+            <Signup updateToken={props.updateToken}/>
+            <Login updateToken={props.updateToken}/>
         </div>
     );
 }
